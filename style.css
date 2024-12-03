@@ -1,0 +1,69 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Header styles */
+  h1 {
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: #222;
+  }
+  
+  /* Form styles */
+  form {
+    margin: 20px auto;
+    padding: 10px;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input,
+  form button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Canvas styles */
+  canvas {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Download button */
+  button#downloadButton {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  button#downloadButton:hover {
+    background-color: #218838;
+  }
+  

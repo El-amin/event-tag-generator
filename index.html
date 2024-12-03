@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Tag Generator</title>
+  <!-- Link the external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Event Tag Generator</h1>
+  <form id="uploadForm">
+    <label for="nameInput">Enter Your Name:</label>
+    <input type="text" id="nameInput" placeholder="Your Name" required>
+    <input type="file" id="uploadImage" accept="image/*" required>
+    <button type="submit">Generate Tag</button>
+  </form>
+  <canvas id="tagCanvas" width="160" height="300" style="display: none;"></canvas>
+  <button id="downloadButton" style="display: none;">Download Tag</button>
+  <img id="tagTemplate" src="tag-template.jpg" alt="Tag Template" style="display: none;">
+
+  <!-- Link the JavaScript file -->
+  <script src="scriptt.js"></script>
+</body>
+</html>
+
